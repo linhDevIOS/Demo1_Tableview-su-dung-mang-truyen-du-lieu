@@ -12,6 +12,7 @@
 		5B07C2C7231BF10F00C6607C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B07C2C5231BF10F00C6607C /* Main.storyboard */; };
 		5B07C2C9231BF11000C6607C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B07C2C8231BF11000C6607C /* Assets.xcassets */; };
 		5B07C2CC231BF11000C6607C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B07C2CA231BF11000C6607C /* LaunchScreen.storyboard */; };
+		5B07C2D4231BF15700C6607C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B07C2D3231BF15700C6607C /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5B07C2C8231BF11000C6607C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B07C2CB231BF11000C6607C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B07C2CD231BF11000C6607C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B07C2D3231BF15700C6607C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5B07C2C8231BF11000C6607C /* Assets.xcassets */,
 				5B07C2CA231BF11000C6607C /* LaunchScreen.storyboard */,
 				5B07C2CD231BF11000C6607C /* Info.plist */,
+				5B07C2D3231BF15700C6607C /* CustomTableViewCell.swift */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B07C2D4231BF15700C6607C /* CustomTableViewCell.swift in Sources */,
 				5B07C2C4231BF10F00C6607C /* ViewController.swift in Sources */,
 				5B07C2C2231BF10F00C6607C /* AppDelegate.swift in Sources */,
 			);
